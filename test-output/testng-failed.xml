@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationProject(failed)">
+    <classes>
+      <class name="Automation.TC.SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quitbrowser"/>
+          <include name="setup"/>
+          <include name="SignInPage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- Automation.TC.SignInTest -->
+    </classes>
+  </test> <!-- AutomationProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
